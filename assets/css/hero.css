@@ -1,0 +1,56 @@
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 32px;
+}
+
+.text-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.title-hero {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+}
+
+.button-work {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+    height: 56px;
+    width: 160px;
+    border-radius: 8px;
+    background: #5468e7;
+}
+
+.img-computer {
+    margin-bottom: 64px;
+}
+
+
+@media screen and (min-width: 900px) {
+
+    .hero-container {
+        flex-direction: row;
+        padding: 0px 100px;
+
+    }
+
+    .title-hero {
+        font-size: 84px;
+        font-weight: 700;
+        line-height: 100px;
+        letter-spacing: -1px;
+    }
+
+    .text-hero {
+        gap: 40px;
+    }
+
+
+}

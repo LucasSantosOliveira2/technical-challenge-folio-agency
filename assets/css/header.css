@@ -1,0 +1,87 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 62px 32px;
+}
+
+
+.logo {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.logo-symbol {
+    height: 22px;
+    width: 22px;
+    box-sizing: border-box;
+    padding: 3.8px;
+    border-radius: 8px;
+    background: #5468e7;
+}
+
+.logo-folio {
+    height: 23px;
+    width: 66px;
+}
+
+.menu-header {
+    display: none;
+}
+
+.btn-contact {
+    display: none;
+}
+
+@media screen and (min-width: 760px) {
+
+    header {
+        padding: 64px 72px;
+    }
+
+    .burguer-menu {
+        display: none;
+    }
+
+    .menu-header {
+        display: block;
+    }
+
+    .btn-contact {
+        display: block;
+    }
+
+    .menu-header a {
+        text-decoration: none;
+        color: #8b8b8b;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .menu-header li a:hover {
+        color: #5468e7;
+    }
+
+    .menu-header ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: center;
+        gap: 64px;
+    }
+
+    .btn-contact {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 1);
+        height: 64px;
+        width: 180px;
+        border-radius: 8px;
+        background: #232340;
+    }
+
+
+}
