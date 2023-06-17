@@ -67,12 +67,6 @@
         transform: scale(1.2);
     }
 
-    .text-arrows {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        padding-left: 150px;
-        margin-bottom: 136px;
-    }
+
 
 }
