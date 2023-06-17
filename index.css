@@ -15,8 +15,6 @@ body {
 }
 
 
-
-
 .paragraph {
   font-size: 16px;
   font-weight: 400;
@@ -24,9 +22,8 @@ body {
   letter-spacing: 0px;
   text-align: left;
   color: #606060;
+  max-width: 310px;
 }
-
-
 
 img {
   max-width: 100%;
@@ -45,6 +42,7 @@ h6 {
   display: flex;
   flex-direction: column;
   padding: 64px 32px;
+  width: 100%;
 }
 
 .content {
@@ -63,19 +61,23 @@ h6 {
   text-align: left;
 }
 
-h2 {
+
+
+.content-title {
   font-size: 40px;
   font-weight: 700;
   line-height: 48px;
-  letter-spacing: -0.4000000059604645px;
+  letter-spacing: -0.5px;
   text-align: left;
   color: white;
   margin-bottom: 32px;
+  max-width: 226px;
 }
 
 .arrows {
   display: flex;
   gap: 30px;
+  margin-bottom: 80px;
 }
 
 .arrow-left:hover {
@@ -224,6 +226,7 @@ h2 {
   .paragraph {
     font-size: 18px;
     line-height: 32px;
+    max-width: 367px;
   }
 
   .second-logo {
@@ -241,8 +244,14 @@ h2 {
     padding-left: 80px;
   }
 
+  .content-title {
+    font-size: 64px;
+    line-height: 72px;
+    padding-left: 50px;
+    max-width: 668px;
+  }
+
   .arrows {
-    margin-left: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 }

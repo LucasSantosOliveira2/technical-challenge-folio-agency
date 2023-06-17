@@ -5,7 +5,6 @@ header {
     padding: 62px 32px;
 }
 
-
 .logo {
     display: flex;
     align-items: flex-start;
@@ -24,6 +23,19 @@ header {
 .logo-folio {
     height: 23px;
     width: 66px;
+}
+
+.burger-menu {
+    cursor: pointer;
+}
+
+.burguer-menu .bn {
+    display: block;
+    height: 2px;
+    width: 32px;
+    border-radius: 3px;
+    margin: 3px auto;
+    background: #232340;
 }
 
 .menu-header {

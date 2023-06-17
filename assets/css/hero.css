@@ -1,3 +1,7 @@
+.first-section {
+    width: 100%;
+}
+
 .hero-container {
     display: flex;
     flex-direction: column;
@@ -33,19 +37,19 @@
 }
 
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 760px) {
 
     .hero-container {
         flex-direction: row;
         padding: 0px 100px;
-
+        padding: 80px;
     }
 
     .title-hero {
         font-size: 84px;
-        font-weight: 700;
         line-height: 100px;
         letter-spacing: -1px;
+        text-align: left;
     }
 
     .text-hero {
