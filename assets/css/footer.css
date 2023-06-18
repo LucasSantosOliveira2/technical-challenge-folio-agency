@@ -238,8 +238,10 @@
     }
 
     .footer-box-bottom {
-        display: flex;
-        gap: 160px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+
     }
 
     .footer-second-box {
@@ -247,6 +249,7 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
+        gap: 30px;
     }
 
     .test {
@@ -268,6 +271,8 @@
     }
 
     .footer-text-right {
+        height: 80px;
+        width: 367px;
         font-size: 32px;
         font-weight: 700;
         line-height: 40px;
