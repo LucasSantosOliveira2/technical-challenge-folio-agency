@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+
 }
 
 @font-face {
@@ -88,29 +90,10 @@ h6 {
   border-radius: 50%;
 }
 
-
-.number-branding {
-  margin-top: 57px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border-radius: 50%;
-  background: #262646;
-  margin-bottom: 65px;
-}
-
 .second-logo {
   display: none;
 }
 
-.number-about {
-  font-size: 140px;
-  font-weight: 600;
-  letter-spacing: 0px;
-  color: white;
-}
 
 .text-branding {
   font-size: 18px;
@@ -208,9 +191,9 @@ h6 {
 
   .box-content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: row;
     padding-left: 50px;
-    margin-bottom: 96px;
   }
 
   .fit-logo {

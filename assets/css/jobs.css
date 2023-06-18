@@ -55,24 +55,14 @@
     .job-content {
         flex-direction: row;
         justify-content: space-around;
-
+        align-items: flex-start;
+        padding-left: 40px;
     }
 
     .job-cards {
         height: 247px;
         width: 568px;
         border-radius: 40px;
-        padding-left: 64px;
-    }
-
-    .job-space {
-        padding-bottom: 670px;
-    }
-
-    .job-logo-space {
-        padding-bottom: 1065px;
-        padding-left: 20px;
-        width: 10%;
     }
 
     .jobs-title {
