@@ -65,6 +65,10 @@
         border-radius: 40px;
     }
 
+    .job-space {
+        margin-right: 90px;
+    }
+
     .jobs-title {
         font-size: 110px;
         line-height: 131px;
