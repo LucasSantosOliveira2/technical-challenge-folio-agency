@@ -241,7 +241,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
-
+        gap: 50px;
     }
 
     .footer-second-box {
@@ -252,7 +252,7 @@
         gap: 30px;
     }
 
-    .test {
+    .footer-arrow {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -281,11 +281,4 @@
         color: white;
     }
 
-    .footer-arrow {
-        width: 64px;
-        height: 64px;
-        padding-bottom: 10px;
-        border-radius: 50%;
-        border: 2px solid #FFFFFF;
-    }
 }
