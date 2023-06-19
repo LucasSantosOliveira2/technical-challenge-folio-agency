@@ -91,6 +91,7 @@ header {
         color: rgba(255, 255, 255, 1);
         height: 64px;
         width: 180px;
+        border: none;
         border-radius: 8px;
         background: #232340;
     }
