@@ -64,6 +64,17 @@ header {
         display: block;
     }
 
+    .logo-symbol {
+        height: 36px;
+        width: 36px;
+        padding: 5px;
+    }
+
+    .logo-folio {
+        height: 30px;
+        width: 83px;
+    }
+
     .menu-header a {
         text-decoration: none;
         color: #8b8b8b;
