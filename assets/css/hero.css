@@ -1,5 +1,6 @@
 .first-section {
     width: 100%;
+    margin-top: 150px;
 }
 
 .hero-container {
@@ -39,6 +40,10 @@
 
 
 @media screen and (min-width: 760px) {
+
+    .first-section {
+        margin-top: 0px;
+    }
 
     .hero-container {
         flex-direction: row;
